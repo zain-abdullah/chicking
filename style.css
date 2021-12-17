@@ -1,0 +1,316 @@
+body{
+    margin: 0;
+
+}
+.navbar{
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.logo{
+    margin-left: 150px;
+    height: 90px;
+    width: 200px;
+}
+.navryt1 button{
+    cursor: pointer;
+    background-color: brown;
+    width: 130px;
+    padding-left: 23px;
+    display: flex;
+    margin: 10px 0px 0px 500px;
+    color: white;
+    background-image: url(photos/call_black_24dp.svg);
+    background-repeat: no-repeat;
+    background-size: 19px;
+    background-position: 5px;
+}
+.navryt2{
+    display: flex;
+}
+.homediv{
+    background-image: url(photos/homeicon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.home{  
+    margin-top: 17px;
+    font-size: 11px;
+    color: tomato;
+}
+.fooddiv{
+    margin-left: 10px;
+    background-image: url(photos/foodicon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.food{
+    margin-top: 17px;
+    font-size: 11px;
+}
+.offerdiv{
+    margin-left: 10px;
+    background-image: url(photos/offericon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.offer{
+    margin-top: 17px;
+    font-size: 11px;
+}
+.storediv{
+    margin-left: 10px;
+    background-image: url(photos/offericon.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.store{
+    margin-top: 17px;
+    font-size: 11px;    
+}
+.testimonialsdiv{
+    background-image: url(photos/testicon.png);
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.testimonials{
+    margin-top: 17px;
+    font-size: 11px;
+}
+.trackdiv{
+    background-image: url(photos/trackicon.png);
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 8px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+.track{
+    margin-top: 17px;
+    font-size: 11px;
+}
+.belldiv{
+    width: 30px;
+    height: auto;
+    margin-left: 25px;
+    background-image: url(photos/bellicon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    border-left: solid 1px rgb(173, 173, 173);
+    cursor: pointer;
+}
+.profilediv{
+    width: 30px;
+    height: auto;
+    margin-left: 15px;
+    background-image: url(photos/proicon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    border-left: solid 1px rgb(173, 173, 173);
+    cursor: pointer;
+}
+.boxdiv{
+    width: 30px;
+    height: auto;
+    margin-left: 15px;
+    background-image: url(photos/boxicon.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px;
+    border-left: solid 1px rgb(173, 173, 173);
+    border-right: solid 1px rgb(173, 173, 173);
+    cursor: pointer;
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+    height: 680px;
+    width: 100%;
+}
+.mainimg{
+    width: 100%;
+    height: 400px;
+}
+.wel{
+    text-align: center;
+    color: tomato;
+}
+.chick{
+    text-align: center;
+    color: black;
+}
+.text{
+    margin-left: 635px;
+    color: tomato;
+    font-size: 15px;
+    text-decoration: none;
+}
+.popular{
+    width: 100%;
+    height: 700px;
+}
+.pop{
+    text-align: center;
+    color: black;
+}
+.spcs{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.peri{
+    width: 150px;
+    height: 200px;
+}
+.chickoffer{
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+}
+.pcs{
+    height: 150px;
+    margin-left: 250px;
+    transition-duration: 0.5s;
+    
+}
+.pcs:hover,.peri:hover{
+    transform: scale(1.1);
+}
+.peri{
+    height: 150px;
+    margin-left: 50px;
+    transition-duration: .5s;
+}
+.rate{
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+}
+.rate1{
+    padding-left: 200px;
+    padding-right: 138px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+}
+.rupee{
+    color: tomato;
+}
+.view{
+    color: brown;
+    text-decoration: none;
+    margin-left: 75%;
+    margin-top: 100px;
+}
+.last{
+    width: 100%;
+    height: 300px;
+}
+.dwld{
+    margin-left: 20%;
+    font-size: 13px;
+    margin-top: 2%;
+}
+.phone{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 1580px;
+    left: 700px;
+}
+.storebutton{
+    margin-left: 20%;
+    margin-top: 5%;
+}
+.finalright{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.dwnlhead{
+    margin-left: -130px;
+    font-size: 25px;
+    margin-top: 150px;
+    text-align: center;
+}
+.final{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;   
+}
+.finalleft{
+    width: 50%;
+    height: auto;
+    padding-left: 16%;
+}
+.finally{
+    text-decoration: none;
+    color: rgb(160, 159, 158);
+    font-size: 15px;
+
+}
+.copy{
+    text-align: center;
+    color: rgb(180, 180, 179);
+}
+.btn1,.btn2{
+    margin-top: 30px;
+    cursor: pointer;
+    width: 120px;
+    height: 40px;
+
+
+}
+.btn1{
+
+    margin-left: 20%;
+}
+.btn2{
+    margin-left: 3%;
+}
+.divlast{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+}
+.finallast{
+    display: flex;
+    flex-direction: row;
+    margin-left: 30%;
+}
+.lastfinal{
+    margin-left: 43%;
+}
+.tex{
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+
